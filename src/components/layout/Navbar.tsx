@@ -19,15 +19,24 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-gold/20">
       <nav className="container-narrow mx-auto flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded gold-gradient flex items-center justify-center">
-            <span className="font-heading text-navy font-bold text-lg">P</span>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-heading text-cream text-lg font-bold leading-tight">Prescott</span>
-            <span className="text-gold text-[10px] tracking-[0.2em] uppercase font-body">& Associates</span>
-          </div>
-        </Link>
+       <Link to="/" className="flex items-center gap-2">
+  {/* Logo Container */}
+  <div >
+  <img
+  src={`${import.meta.env.BASE_URL}Logo1.png`}
+  alt="Khashane Attorneys Logo"
+  className="h-20 w-auto object-contain"
+/>
+</div>
+
+  {/* Company Name */}
+  {/* <div className="flex flex-col leading-tight">
+    <span className="font-heading text-cream text-lg font-bold">Khashane</span>
+    <span className="text-gold text-[10px] tracking-[0.2em] uppercase font-body">
+      Attorneys
+    </span>
+  </div> */}
+</Link>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-8">
@@ -48,9 +57,9 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+2349136364360" className="flex items-center gap-2 text-cream/80 hover:text-gold transition-colors text-sm">
+          <a href="tel:+27822166675"  className="flex items-center gap-2 text-cream/80 hover:text-gold transition-colors text-sm">
             <Phone className="w-4 h-4" />
-            (+234) 8011 11 2222
+            
           </a>
           <Button variant="gold" size="sm" asChild>
             <Link to="/contact">Free Consultation</Link>

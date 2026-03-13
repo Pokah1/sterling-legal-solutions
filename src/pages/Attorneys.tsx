@@ -1,16 +1,40 @@
 import Layout from "@/components/layout/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import AttorneyCard from "@/components/AttorneyCard";
-import attorney1 from "@/assets/attorney-1.jpg";
-import attorney2 from "@/assets/attorney-2.jpg";
-import attorney3 from "@/assets/attorney-3.jpg";
-import attorney4 from "@/assets/attorney-4.jpg";
+// import attorney1 from "@/assets/placeholder.png";
+// import attorney2 from "@/assets/placeholder.png";
+// import attorney3 from "@/assets/placeholder.png";
+import attorney4 from "@/assets/placeholder.png";
 
 const attorneys = [
-  { image: attorney1, name: "James Prescott", specialization: "Managing Partner — Corporate Law", experience: "20+ Years Experience", bio: "A founding partner with expertise in corporate mergers, acquisitions, and business strategy. Harvard Law School graduate with a track record of landmark corporate cases." },
-  { image: attorney2, name: "Elena Vasquez", specialization: "Senior Partner — Family Law", experience: "15+ Years Experience", bio: "Specializing in family law with a compassionate approach to divorce, custody, and adoption. Known for achieving favorable outcomes while minimizing emotional impact." },
-  { image: attorney3, name: "Raj Patel", specialization: "Partner — Criminal Defense", experience: "12+ Years Experience", bio: "Former federal prosecutor turned defense attorney. His inside knowledge of prosecution tactics gives clients a significant strategic advantage." },
-  { image: attorney4, name: "Mei Lin Chen", specialization: "Partner — Immigration Law", experience: "10+ Years Experience", bio: "Passionate advocate helping individuals and families navigate the U.S. immigration system. Fluent in Mandarin and Cantonese, she bridges cultural and legal gaps." },
+  {
+    image: attorney4,
+    name: "MADUVHAHAFANI KASHANE",
+    specialization: "Director | Attorney — Corporate Law",
+    experience: "20+ Years Experience",
+    bio: "Founder and lead attorney with extensive expertise in corporate law, mergers, and business strategy. Dedicated to providing exceptional legal guidance.",
+  },
+  {
+    image: attorney4,
+    name: "John Doe",
+    specialization: "Partner — Family Law",
+    experience: "15+ Years Experience",
+    bio: "Experienced family law attorney specializing in divorce, custody, and adoption cases. Committed to achieving fair outcomes for clients.",
+  },
+  {
+    image: attorney4,
+    name: "Jane Smith",
+    specialization: "Partner — Labour Law",
+    experience: "12+ Years Experience",
+    bio: "Labour law expert helping clients navigate workplace disputes, employment contracts, and compliance issues.",
+  },
+  {
+    image: attorney4,
+    name: "Alex Johnson",
+    specialization: "Partner — Estate Planning",
+    experience: "10+ Years Experience",
+    bio: "Dedicated to guiding clients through estate planning, wills, and administration of estates with clarity and care.",
+  },
 ];
 
 const Attorneys = () => {

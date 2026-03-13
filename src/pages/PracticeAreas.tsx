@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import SectionHeading from "@/components/SectionHeading";
+// import SectionHeading from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Building2, Users, Shield, Home, Globe, Scale, ArrowRight } from "lucide-react";
@@ -7,39 +7,82 @@ import { Building2, Users, Shield, Home, Globe, Scale, ArrowRight } from "lucide
 const areas = [
   {
     icon: Building2,
-    title: "Corporate Law",
-    description: "Our corporate law team advises businesses at every stage—from startup formation and contract negotiations to complex mergers, acquisitions, and regulatory compliance. We help companies navigate legal complexities so they can focus on growth.",
-    services: ["Mergers & Acquisitions", "Contract Drafting & Review", "Corporate Governance", "Regulatory Compliance", "Business Formation", "Shareholder Agreements"],
-  },
-  {
-    icon: Shield,
-    title: "Criminal Defense",
-    description: "When your freedom is at stake, you need an aggressive and experienced defense team. We handle all criminal matters, from misdemeanors to serious felony charges, ensuring your rights are protected throughout the legal process.",
-    services: ["Felony Defense", "Misdemeanor Defense", "DUI/DWI Defense", "White-Collar Crime", "Appeals", "Expungements"],
+    title: "Corporate & Commercial Law",
+    description:
+      "We provide strategic legal guidance to businesses of all sizes, assisting with corporate structures, commercial agreements, and regulatory compliance. Our goal is to help companies operate confidently while protecting their legal and financial interests.",
+    services: [
+      "Business Formation",
+      "Commercial Agreements",
+      "Contract Drafting & Review",
+      "Corporate Governance",
+      "Regulatory Compliance",
+      "Business Advisory",
+    ],
   },
   {
     icon: Users,
     title: "Family Law",
-    description: "Family matters require sensitivity and expertise. Our family law attorneys guide clients through divorce, child custody, adoption, and other family-related legal issues with compassion and resolve.",
-    services: ["Divorce & Separation", "Child Custody & Support", "Adoption", "Prenuptial Agreements", "Domestic Violence Protection", "Estate Planning"],
-  },
-  {
-    icon: Home,
-    title: "Real Estate Law",
-    description: "From residential purchases to major commercial developments, our real estate practice covers all aspects of property law. We ensure smooth transactions and resolve disputes efficiently.",
-    services: ["Property Transactions", "Title Issues", "Zoning & Land Use", "Landlord-Tenant Disputes", "Construction Law", "Commercial Leasing"],
-  },
-  {
-    icon: Globe,
-    title: "Immigration Law",
-    description: "Navigating the immigration system can be overwhelming. Our dedicated immigration team helps individuals and families with visa applications, green cards, citizenship, and deportation defense.",
-    services: ["Visa Applications", "Green Card Petitions", "Citizenship & Naturalization", "Deportation Defense", "Asylum Cases", "Employment-Based Immigration"],
+    description:
+      "Family legal matters often involve sensitive and emotional situations. Our attorneys provide compassionate guidance and practical legal solutions while protecting the best interests of our clients and their families.",
+    services: [
+      "Divorce & Separation",
+      "Child Custody Matters",
+      "Child Maintenance",
+      "Parental Rights",
+      "Family Dispute Resolution",
+    ],
   },
   {
     icon: Scale,
-    title: "Civil Litigation",
-    description: "When disputes cannot be resolved through negotiation, our litigation team provides forceful courtroom advocacy. We handle complex commercial disputes, personal injury claims, and more.",
-    services: ["Commercial Disputes", "Personal Injury", "Employment Litigation", "Insurance Claims", "Class Actions", "Arbitration & Mediation"],
+    title: "Labour Law",
+    description:
+      "We assist both employers and employees in navigating workplace disputes and employment regulations. Our team provides clear legal advice and representation in labour-related matters.",
+    services: [
+      "Employment Contracts",
+      "Unfair Dismissal Claims",
+      "Workplace Disputes",
+      "Disciplinary Hearings",
+      "Labour Compliance Advice",
+    ],
+  },
+  {
+    icon: Home,
+    title: "Estate Planning & Administration",
+    description:
+      "Planning for the future is essential to protecting your assets and loved ones. We assist clients with estate planning and guide families through the legal process of administering estates.",
+    services: [
+      "Drafting Wills",
+      "Estate Planning",
+      "Administration of Deceased Estates",
+      "Estate Disputes",
+      "Asset Distribution",
+    ],
+  },
+  {
+    icon: Shield,
+    title: "Debt Collection & Third Party Claims",
+    description:
+      "We help individuals and businesses recover outstanding debts and pursue lawful compensation through third-party claims. Our legal team ensures that claims are handled efficiently and professionally.",
+    services: [
+      "Debt Recovery",
+      "Commercial Debt Collection",
+      "Third Party Claims",
+      "Negotiated Settlements",
+      "Legal Enforcement Procedures",
+    ],
+  },
+  {
+    icon: Globe,
+    title: "Pension Law & Bail Applications",
+    description:
+      "Our firm provides legal support in pension-related matters as well as representation for bail applications, ensuring that clients receive fair legal consideration and proper guidance.",
+    services: [
+      "Pension Disputes",
+      "Pension Benefit Claims",
+      "Retirement Fund Matters",
+      "Bail Applications",
+      "Criminal Procedure Assistance",
+    ],
   },
 ];
 

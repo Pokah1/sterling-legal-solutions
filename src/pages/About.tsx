@@ -2,10 +2,11 @@ import Layout from "@/components/layout/Layout";
 import SectionHeading from "@/components/SectionHeading";
 import AttorneyCard from "@/components/AttorneyCard";
 import aboutHero from "@/assets/about-hero.jpg";
-import attorney1 from "@/assets/attorney-1.jpg";
-import attorney2 from "@/assets/attorney-2.jpg";
-import attorney3 from "@/assets/attorney-3.jpg";
-import attorney4 from "@/assets/attorney-4.jpg";
+// import attorney1 from "@/assets/attorney-1.jpg";
+// import attorney2 from "@/assets/attorney-2.jpg";
+// import attorney3 from "@/assets/attorney-3.jpg";
+// import attorney4 from "@/assets/attorney-4.jpg";
+import attorney5 from "@/assets//placeholder.png";
 import { CheckCircle } from "lucide-react";
 
 const values = [
@@ -16,10 +17,34 @@ const values = [
 ];
 
 const attorneys = [
-  { image: attorney1, name: "James Prescott", specialization: "Managing Partner — Corporate Law", experience: "20+ Years Experience", bio: "A founding partner with expertise in corporate mergers, acquisitions, and business strategy. Harvard Law graduate." },
-  { image: attorney2, name: "Elena Vasquez", specialization: "Senior Partner — Family Law", experience: "15+ Years Experience", bio: "Specializing in family law with a compassionate approach to divorce, custody, and adoption cases." },
-  { image: attorney3, name: "Raj Patel", specialization: "Partner — Criminal Defense", experience: "12+ Years Experience", bio: "Former prosecutor turned defense attorney. Known for meticulous preparation and courtroom presence." },
-  { image: attorney4, name: "Mei Lin Chen", specialization: "Partner — Immigration Law", experience: "10+ Years Experience", bio: "Passionate advocate for immigrants navigating the complex U.S. immigration system." },
+  {
+   image: attorney5,
+    name: "MADUVHAHAFANI KASHANE",
+    specialization: "Director | Attorney — Corporate Law",
+    experience: "20+ Years Experience",
+    bio: "Founder and lead attorney with extensive expertise in corporate law, mergers, and business strategy. Dedicated to providing exceptional legal guidance.",
+  },
+  {
+    image: attorney5,
+    name: "John Doe",
+    specialization: "Partner — Family Law",
+    experience: "15+ Years Experience",
+    bio: "Experienced family law attorney specializing in divorce, custody, and adoption cases. Committed to achieving fair outcomes for clients.",
+  },
+  {
+    image: attorney5,
+    name: "Jane Smith",
+    specialization: "Partner — Labour Law",
+    experience: "12+ Years Experience",
+    bio: "Labour law expert helping clients navigate workplace disputes, employment contracts, and compliance issues.",
+  },
+  {
+    image: attorney5,
+    name: "Alex Johnson",
+    specialization: "Partner — Estate Planning",
+    experience: "10+ Years Experience",
+    bio: "Dedicated to guiding clients through estate planning, wills, and administration of estates with clarity and care.",
+  },
 ];
 
 const About = () => {
@@ -33,10 +58,12 @@ const About = () => {
         </div>
         <div className="relative z-10 container-narrow mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-gold text-sm font-semibold tracking-wider uppercase">About Us</span>
-          <h1 className="font-heading text-4xl sm:text-5xl font-bold text-cream mt-2">Our Story & Mission</h1>
-          <p className="text-cream/70 max-w-2xl mx-auto mt-4">
-            For over 25 years, Prescott & Associates has been a pillar of legal excellence, serving clients with unwavering dedication.
-          </p>
+         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-cream mt-2">
+  Our Story & Mission
+</h1>
+<p className="text-cream/70 max-w-2xl mx-auto mt-4">
+  At Khashane Attorneys Inc. we are committed to delivering reliable legal guidance and strong representation, built on the principles of integrity, professionalism, and dedication to every client we serve.
+</p>
         </div>
       </section>
 
@@ -48,14 +75,14 @@ const About = () => {
               <span className="text-accent text-sm font-semibold tracking-wider uppercase">Our History</span>
               <h2 className="font-heading text-3xl font-bold text-foreground mt-2 mb-6">A Legacy of Legal Excellence</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Founded in 1998 by James Prescott Sr., our firm began as a small practice focused on corporate law. Over the decades, we have expanded to encompass a comprehensive range of legal services, growing into one of the most trusted law firms in the region.
+                Khashane Attorneys Inc. was established with a commitment to delivering exceptional legal services with integrity, professionalism, and dedication. What began as a focused legal practice has grown into a respected firm offering a comprehensive range of legal services, trusted by individuals, families, and businesses alike.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Today, with over 20 attorneys and a dedicated support staff, we continue to uphold the founding principles of excellence, integrity, and client-first service that have defined our practice since day one.
-              </p>
+  Today, Khashane Attorneys continues to uphold the principles of excellence, integrity, and client-focused service that define our practice. With a dedicated team of legal professionals and support staff, we remain committed to delivering reliable legal solutions and strong representation for our clients.
+</p>
               <p className="text-muted-foreground leading-relaxed">
-                Our attorneys have been recognized by leading legal publications and have consistently achieved favorable outcomes for clients in high-stakes litigation, complex transactions, and sensitive personal matters.
-              </p>
+  At Khashane Attorneys, our legal professionals combine knowledge, experience, and dedication to provide trusted guidance and strong representation. We approach every matter with care and professionalism, striving to achieve the best possible results for our clients.
+</p>
             </div>
             <div className="space-y-6">
               {values.map(({ title, description }) => (

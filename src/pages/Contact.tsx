@@ -26,9 +26,9 @@ const Contact = () => {
   };
 
   const contactInfo = [
-  { icon: Phone, label: "Phone", value: "+234 8011 11 2222", href: "tel:+2349136364360" },
-  { icon: Mail, label: "Email", value: "info@prescottlaw.com", href: "mailto:info@prescottlaw.com" },
-  { icon: MapPin, label: "Address", value: "12 Adeola Odeku Street, Victoria Island Lagos 101241, Nigeria" },
+  { icon: Phone, label: "Phone", value: "+27 82 216 6675", href: "tel:+27822166675" },
+  { icon: Mail, label: "Email", value: " info@khashaneattorneysinc.co.za", href: "mailto:info@khashaneattorneysinc.co.za" },
+  { icon: MapPin, label: "Address", value: "S0406 JSL Towers, 4th Floor, 255 Pretorius Street, Pretoria, 0002" },
   { icon: Clock, label: "Office Hours", value: "Mon–Fri: 9:00 AM – 6:00 PM\nSat: 10:00 AM – 2:00 PM" },
 ];
 
@@ -65,7 +65,7 @@ const Contact = () => {
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="phone">Phone Number</Label>
-                    <Input id="phone" type="tel" placeholder="(234) 123-4567" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} maxLength={20} />
+                    <Input id="phone" type="tel" placeholder="+27822123456" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} maxLength={20} />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="subject">Subject</Label>
@@ -106,7 +106,7 @@ const Contact = () => {
               <div className="rounded-lg overflow-hidden border border-border h-64">
                 <iframe
                   title="Office Location"
-                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3973.2157098511065!2d3.416483!3d6.430664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1700000000000"
+                   src="https://maps.google.com/?q=JSL+Towers+255+Pretorius+Street+Pretoria+0002&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
